@@ -49,6 +49,7 @@ memoryApmAsm {
 }
 
 dependencies {
+    implementation(project(":ad-apm"))
     implementation(project(":memory-apm"))
     implementation(project(":memory-apm-koom"))
     implementation(libs.androidx.core.ktx)

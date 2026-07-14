@@ -200,6 +200,8 @@ private fun MemoryDashboard(
                 style = MaterialTheme.typography.bodyMedium,
             )
 
+            AdDemoSection()
+
             MetricCard(title = "页面说明") {
                 DescriptionText("这个页面用于演示线上内存监控 SDK 的基础能力：启动采样、页面生命周期采样、周期采样、系统低内存回调和本地最近快照展示。")
                 DescriptionText("点击“采样”会手动记录一次内存快照；点击“+8 MB”会持有一块 8MB 的 ByteArray，用来模拟业务页面中的大对象增长；点击“清理”会释放 Demo 持有的强引用并触发一次 GC。")

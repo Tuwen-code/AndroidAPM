@@ -21,6 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "MemoryAPM"
 include(":app")
+include(":ad-apm")
 include(":memory-apm")
 include(":memory-apm-koom")
 include(":koom-shark")

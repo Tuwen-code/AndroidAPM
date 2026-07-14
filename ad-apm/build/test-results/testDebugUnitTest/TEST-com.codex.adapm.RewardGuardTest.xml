@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codex.adapm.RewardGuardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-08T09:19:06.074Z" hostname="DESKTOP-P506FMN" time="0.0">
+  <properties/>
+  <testcase name="markRewarded_allowsOnlyFirstRewardForSameRewardId" classname="com.codex.adapm.RewardGuardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
